@@ -2,7 +2,7 @@ package bank.management.system;
 
 import java.awt.Color;
 import java.awt.Image;
-import java.awt.TextArea;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.Font;

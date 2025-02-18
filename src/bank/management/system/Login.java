@@ -111,6 +111,7 @@ public class Login extends JFrame implements ActionListener{
             if(e.getSource()==button1){
                 Conn c=new Conn();
                 String cardno=textField.getText();
+                @SuppressWarnings("deprecation")
                 String pass=passwordField.getText();
                 String q="select * from login where card_number='"+cardno+"' and pin='"+pass+"'";
                 ResultSet resultSet=c.statement.executeQuery(q);

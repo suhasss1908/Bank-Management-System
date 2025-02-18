@@ -82,6 +82,7 @@ public class Pin extends JFrame implements ActionListener{
 
 
    
+    @SuppressWarnings("deprecation")
     @Override
     public void actionPerformed(ActionEvent e) {
 
